@@ -10,19 +10,13 @@ function Home(props) {
         }
     }, 3000)
 
-    
-
-
     return (
         <div className="main">
             <div className="wrapper">
                 <p>
                     Hi! <br />
                     I'm <span style={{ fontSize: "35px", fontWeight: "900" }}> Nomaan </span> <br />
-                    Web <span key={title} className="fade" style={{ fontSize: "32px", fontWeight: "600", color: "green" }}>
-                        <span style={{ display: title === 0 ? "" : "none" }}>Developer</span>
-                        <span style={{ display: title === 0 ? "none" : "" }}>Designer</span>
-                    </span>
+                    Web <span className="designation"></span>
                 </p>
                 
             </div>

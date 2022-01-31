@@ -28,7 +28,7 @@ function App(){
     return (
         <>
         {selectScene()}
-        <Sidebar chooseScene={setScene} />
+        <Sidebar chooseScene={setScene} scene={scene} />
         <Socials />
         </>
     )

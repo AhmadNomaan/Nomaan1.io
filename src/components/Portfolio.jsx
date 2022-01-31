@@ -2,8 +2,8 @@ import React from "react";
 
 function Portfolio(){
     return  (
-        <div className="main">
-            <h1> This is portfolio </h1>
+        <div className="portfolio">
+            <h1 className="notice"> Coming Soon!!</h1>
         </div>
     )
 }

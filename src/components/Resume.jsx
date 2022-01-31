@@ -1,9 +1,11 @@
 import React from "react"
+import ResumeImg from "../assets/resume-Upload.jpg"
+
 
 function Resume(){
     return (
         <div className="main">
-            <h1>This is resume </h1>
+            <img src= {ResumeImg} alt="resume"></img>
         </div>
     )
 
