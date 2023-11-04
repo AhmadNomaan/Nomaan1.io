@@ -15,19 +15,21 @@ function Header() {
                     <p className="w-full h-full text-4xl -rotate-12" style={{ fontFamily: 'Mrs Saint Delafield' }}>Nomaan Dev</p>
                     {/* <img className="w-2/4" src={LogoImg} alt="main-logo" /> */}
                 </div>
-                <div className={` cursor-pointer w-fit ${animate_menu && 'animate-ping duration-75'}`} onClick={() => {
+                <div className={` cursor-pointer w-fit duration-[10ms] ${animate_menu && 'animate-spin'}`} onClick={() => {
                     setMenu_open(!menu_open)
                     setAnimate_menu(true)
                     setTimeout(() => { setAnimate_menu(false) }, 1000)
                 }}>
-                    <img className="w-10" src={menu_open ? MenuImgOutline : MenuImgFilled} alt="menu-icon" />
+                    <img className="w-10" src={menu_open ? MenuImgFilled : MenuImgOutline} alt="menu-icon" />
+
                 </div>
+                {/* <div className={`absolute right-0 md:mr-14 md:top-auto top-16 overflow-hidden flex md:flex-row flex-col justify-between ${menu_open ? 'menu-slide-in' : 'menu-slide-out '}`}>
+                    <p className={`px-3 py-1 rounded-xl border-2 border-[#7510F7] hover:bg-[#7510F7] text-[#7510F7] hover:text-[#ffffff] cursor-pointer md:w-1/4 md:min-w-fit min-w-full`}>Home</p>
+                    <p className={`px-3 py-1 rounded-xl border-2 border-[#7510F7] hover:bg-[#7510F7] text-[#7510F7] hover:text-[#ffffff] cursor-pointer md:w-1/4 md:min-w-fit min-w-full`}>Portfilio</p>
+                    <p className={`px-3 py-1 rounded-xl border-2 border-[#7510F7] hover:bg-[#7510F7] text-[#7510F7] hover:text-[#ffffff] cursor-pointer md:w-1/4 md:min-w-fit min-w-full`}>Contact</p>
+                </div> */}
             </div>
-            <div className={`w-1/6 backdrop-blur-lg bg-[#ffffff97] flex flex-col ${!menu_open ? 'show-header-menu': 'hide-header-menu'} `}>
-                <p>Home</p>
-                <p>Portfolio</p>
-                <p>Contact</p>
-            </div>
+
         </div>
     )
 }
