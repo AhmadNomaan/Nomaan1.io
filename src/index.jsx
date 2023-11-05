@@ -8,11 +8,12 @@ import './index.css';
 import Contact from './pages/contact';
 import Home from './pages/home';
 import About from './pages/about';
+import NotFound from './pages/not-found';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home title="home"/>,
+    element: <Home/>,
   },
   {
     path: "/contact",
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
     path: "/about",
     element: <About />,
   },
+  {
+    path: "*", 
+    element: <NotFound />,
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

@@ -19,7 +19,6 @@ export default function Home({ title }) {
                         <div className=" flex md:flex-row justify-between flex-col w-1/2">
                             <div className="md:my-0 my-1 md:w-[45%] p-2.5 flex rounded-xl cursor-pointer 
                         text-[#7510F7] hover:text-slate-50 border-2 border-[#7510F7] hover:bg-[#7510F7]"
-
                             >
                                 <p className="select-none font-bold w-full uppercase text-center h-full">Say Hi!</p>
                                 {/* <p className="select-none font-bold w-full uppercase text-center h-full">Know More</p> */}
