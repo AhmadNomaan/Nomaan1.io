@@ -12,7 +12,7 @@ export default function Refyne (){
                     <br />
                     I do not currently have any personal projects to share with you that might showcase my technical abilities. 
                     To be honest, all the work I've done has been in professional capacity pertaning to my current employment and due to contractual obligations, 
-                    I'm not at liberty to share any parts of my work. I can however redirect you to <a href="https://pitchnhire.com"> this website</a> to give you an idea 
+                    I'm not at liberty to share any parts of my work. I can however redirect you to <a className="text-[#7510F7]" href="https://pitchnhire.com"> this website</a> to give you an idea 
                     of the projects I'm working on.
                     <br />
                     I hope you can give me a fair chance to showcase my knowledge and skills.
