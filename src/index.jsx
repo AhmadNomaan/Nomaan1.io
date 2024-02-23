@@ -25,7 +25,7 @@ const router = createBrowserRouter([
     element: <About />,
   },
   {
-    path: "refyne-india", 
+    path: "/refyne-india", 
     element: <Refyne />
   },
   {
