@@ -9,6 +9,7 @@ import Contact from './pages/contact';
 import Home from './pages/home';
 import About from './pages/about';
 import NotFound from './pages/not-found';
+import Refyne from './pages/refyne';
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
   {
     path: "/about",
     element: <About />,
+  },
+  {
+    path: "refyne-india", 
+    element: <Refyne />
   },
   {
     path: "*", 
