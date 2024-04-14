@@ -5,11 +5,11 @@ import {
   RouterProvider,
 } from 'react-router-dom';
 import './index.css';
+import About from './pages/about';
 import Contact from './pages/contact';
 import Home from './pages/home';
-import About from './pages/about';
 import NotFound from './pages/not-found';
-import Refyne from './pages/refyne';
+import { Palette } from './data';
 
 const router = createBrowserRouter([
   {
@@ -24,10 +24,10 @@ const router = createBrowserRouter([
     path: "/about",
     element: <About />,
   },
-  {
-    path: "/refyne-india", 
-    element: <Refyne />
-  },
+  // {
+  //   path: "/refyne-india", 
+  //   element: <Refyne />
+  // },
   {
     path: "*", 
     element: <NotFound />,
@@ -36,7 +36,7 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <div className='w-full h-screen'>
+    <div className={`w-full h-screen bg-[${Palette.primary}]`}>
       <RouterProvider router={router} />
     </div>
   </React.StrictMode>

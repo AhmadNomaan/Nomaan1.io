@@ -32,3 +32,21 @@ export const employment_data = [
         ]
     }
 ]
+
+export const skills = [
+    'NodeJS', 
+    'NestJS', 
+    'ExpressJS',
+    'ReactJS', 
+    'NextJS',
+    'PostgreSQL', 
+    'REDIS', 
+    'RabbitMQ',
+]
+
+export const Palette = {
+    primary: '#fff3e7',
+    seconday: '#fce07d', 
+    complimentary: '#2b6a44', 
+    typography: '#201f1d'
+}

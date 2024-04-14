@@ -6,7 +6,7 @@ export default function Refyne (){
         <div className="w-full h-full flex justify-center items-center">
             <Header />
             <div className="w-1/2 h-1/3 rounded-md flex flex-col justify-center">
-                <p className="text-2xl font-medium">Welcome prople from Refyne India.</p>
+                <p className="text-2xl font-medium">Welcome people from Refyne India.</p>
                 <p className="text-base font-semibold">
                     I've created this page because I wanted to convey a message that the google form was not allowing.
                     <br />

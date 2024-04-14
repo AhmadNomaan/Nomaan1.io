@@ -47,3 +47,18 @@ body {
     }
 }
 
+.color-pri {
+  color: #fff3e7;
+}
+
+.color-sec {
+  color: #fce07d;
+}
+
+.color-comp {
+  color:  #2b6a44;
+}
+
+.color-typo {
+  color: #201f1d;
+}
